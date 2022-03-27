@@ -1,0 +1,201 @@
+/*Outras*/
+body{
+    margin: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+}
+
+
+/*Configuração do cabeçalho*/
+#cabecalho{
+    width: 100%;
+}
+
+#nav{
+    border: 1px solid #334a58;
+    margin: 0 0 15px 0;
+    height: 50px;
+    background-color: #334a58;
+}
+a{
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    margin: 0 10px;
+    margin-top: 5px;
+    background-color: #f1d75f;
+    color: #fff;
+    border-radius: 5px;   
+    font-weight: bolder;
+    margin-left: 5px;
+}
+a:visited{
+    color: #1163a5;
+}
+a:hover{
+    background-color: orange;
+}
+ul{
+    list-style: none;
+    text-align: left;
+}
+
+#cabecalho_logo{
+    border: 1px solid orange;
+    background: rgb(100,118,208);
+    background-color: orange;
+    height: 100px;
+
+}
+h1{
+    color: #334a58;
+    text-align: center;
+}
+/*Configurações de Conteúdo*/
+
+#container{
+    width: 100%;
+}
+
+#principal{
+
+    width: 70%;
+    float: left;
+    margin-top: 0;
+}
+#principal h1{
+    color: black;
+    text-align: left;
+    padding: 15px;
+    margin-left: 23px;
+    
+}
+#principal p{
+    padding: 0 15px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+img{
+    width: 30%;
+    padding: 0 40px;
+    margin-right: -70px;
+}
+/*Configurações da Tabela Lateral*/
+#lateral{
+    border: 4px solid rgb(255, 255, 255);
+    width: 20%;
+    float: right;
+    background-color: rgba(255, 166, 0, 0.897);
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    border-collapse: collapse;
+    margin-right: 15px;
+    border-radius: 15px;
+
+}
+
+hr{
+    border: 3px solid #334a58;
+}
+th{
+    border: 2px solid black;
+    color: #334a58;
+    border-collapse: collapse;
+}
+#tabela{
+    margin-top: 20px;
+    border: none;
+    width: 100%;
+    padding: 5px;
+
+    
+}
+tr{
+    border-bottom: #ee9349;
+    border-top: #ee9349;
+    
+}
+
+td{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #F7CE68;
+    cursor: pointer;
+
+}
+td:hover{
+    background-color: #ff8800;
+}
+table{
+    border: none;
+    width: 25%;
+    min-height: 170px;
+    color: rgb(22, 22, 73);
+    margin-right: 0;
+
+}
+h3{
+    text-align: center;
+    margin: 0;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 7px;
+}
+/*Configurações de Formulário*/
+
+ 
+ 
+ fieldset{
+     background-color: orange;
+     border: none;
+     border-radius: 5px;
+     margin-right: 15px;
+
+
+ }
+ input[type=text]{
+     background-color: #f1d75f;
+     padding: 12px 20px;
+     font-size: 18px;
+     border: none;
+     border-radius: 10px;
+     margin: 10px;
+     outline-style: none;
+     
+ }
+ span{
+     margin-left: 50px;
+     font-weight: bolder;
+     color:#334a58 ;
+ }
+textarea{
+    border: none;
+    border-radius: 15px;
+    margin-left: 7px;
+    font-size: 18px;
+    outline-style: none; /*quando clicado não fica com a borda característica de quando seliciona 1 elemento */
+    background-color: #f1d75f;
+    margin: 15px auto;
+    padding: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    resize: none;
+}
+
+/*Configurações de Rodapé*/
+
+
+#rodape{
+    border: 1px solid orange;
+    background-color: orange;
+    color: #3b4f5c;
+    text-align: right;
+    padding-right: 15px;
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+
+}
